@@ -1,0 +1,59 @@
+/* login.css */
+
+/* Container styles */
+div {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Input styles */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Button styles */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message styles */
+  .alert {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
